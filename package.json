@@ -1,0 +1,61 @@
+{
+  "name": "tik-tak-toe-rss",
+  "version": "1.0.0",
+  "author": "netzee <deniskodua@gmail.com>",
+  "scripts": {
+    "dev": "rimraf dist && webpack serve --config config/webpack.dev.js --progress --profile --watch",
+    "prod": "rimraf dist && webpack --config config/webpack.prod.js --progress --profile --bail",
+    "lint": "eslint ./src"
+  },
+  "dependencies": {
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-router-dom": "^5.2.0"
+  },
+  "devDependencies": {
+    "@svgr/webpack": "^5.4.0",
+    "@types/node": "^14.14.7",
+    "@types/react": "^16.9.56",
+    "@types/react-dom": "^16.9.9",
+    "@types/react-router-dom": "^5.1.7",
+    "@types/webpack": "^4.41.24",
+    "@typescript-eslint/eslint-plugin": "^4.14.0",
+    "@typescript-eslint/parser": "^4.14.2",
+    "assets-webpack-plugin": "^6.0.3",
+    "commander": "^6.2.0",
+    "css-loader": "^5.0.1",
+    "dts-css-modules-loader": "^1.1.1",
+    "eslint": "^7.18.0",
+    "eslint-import-resolver-typescript": "^2.3.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "file-loader": "^6.2.0",
+    "fs-extra": "^9.0.1",
+    "hasha": "^5.2.2",
+    "html-webpack-plugin": "^5.2.0",
+    "node-sass": "^5.0.0",
+    "postcss-flexbugs-fixes": "^5.0.2",
+    "postcss-loader": "^5.0.0",
+    "prettier": "^2.2.1",
+    "rimraf": "^3.0.2",
+    "sass-loader": "^11.0.1",
+    "style-loader": "^2.0.0",
+    "ts-loader": "^8.0.11",
+    "typescript": "^4.0.5",
+    "webpack": "^5.24.2",
+    "webpack-cli": "^4.2.0",
+    "webpack-dev-server": "^3.11.2",
+    "webpack-merge": "^5.3.0"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all",
+      "last 1 chrome version"
+    ],
+    "development": [
+      "last 1 chrome version"
+    ]
+  }
+}
