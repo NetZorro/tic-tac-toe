@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Courgette&display=swap");
+
+:root {
+  --rowNum: 6;
+  --colNum: 6;
+}
+
+$backgroundColor: #d5f5e3;
+
+html {
+  font-family: "Courgette", cursive;
+  font-size: 20px;
+}
+body {
+  background-color: $backgroundColor;
+  background-image: url("./assets/img/batthern.png");
+}
+
+body,
+h1,
+h2,
+h3,
+p,
+button,
+ul {
+  margin: 0;
+  padding: 0;
+}

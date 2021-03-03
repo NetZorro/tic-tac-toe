@@ -1,11 +1,13 @@
 import React from "react";
 
-import Board from "./Board";
+import "./app.scss";
+
+import Game from "./Game";
 
 const App: React.FC = () => {
   return (
     <>
-      <Board />
+      <Game />
     </>
   );
 };
